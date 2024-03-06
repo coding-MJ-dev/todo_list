@@ -11,11 +11,21 @@ export default function Todo({todo, onUpdate, onDelete}) {
   const handleDelete = () => onDelete(todo);
   return (
     <li className={styles.todo}>
-      <input className={styles.checkbox} type='checkbox' id='checkbox' checked={status === 'completed'} onChange={handleChange}/>
-      <label htmlFor='checkbox' className={styles.text} >{text}</label>
-      <button onClick={handleDelete} className={styles.button} >
-        <FaTrashAlt className={styles.icon}/>
+      <input
+        className={styles.checkbox}
+        type='checkbox'
+        id='checkbox'
+        checked={status === 'completed'}
+        onChange={handleChange}
+      />
+      <label htmlFor='checkbox' className={styles.text}>
+        {text}
+      </label>
+      <span className={styles.icon}>
+        <button onClick={handleDelete} className={styles.button}>
+          <FaTrashAlt />
         </button>
+      </span>
     </li>
   );
 
