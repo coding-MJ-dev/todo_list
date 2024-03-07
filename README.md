@@ -9,3 +9,13 @@
 https://todobymj.netlify.app/
 
 **Please feel free to use it and make your day!**
+
+
+###To-do app functions###
+- add item
+- delete item
+- item check box
+- all item list
+- item filtering
+- dark mode
+- local strage save
