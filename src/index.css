@@ -24,7 +24,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   width: 100vw;
-  height: 100vw;
+  height: 50vw;
   display: flex;
   justify-content: center;
   align-items: center;
